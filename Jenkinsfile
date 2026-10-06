@@ -12,7 +12,7 @@ pipeline {
 
         stage('Build') {
             steps {
-                echo 'Building QuickCart application'
+                echo 'Building QuickCart Order Service Version 2'
             }
         }
 
