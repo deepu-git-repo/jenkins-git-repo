@@ -61,6 +61,17 @@ environment {
 
     steps {
 
+        timeout(time: 2, unit: 'MINUTES') {
+
+            echo 'Running QuickCart tests'
+
+            echo 'Tests completed'
+        }
+    }
+}
+
+    steps {
+
         echo 'Running QuickCart tests'
 
         echo 'Tests completed successfully'
